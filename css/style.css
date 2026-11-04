@@ -1,0 +1,506 @@
+/* Área global do projeto */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box
+}
+
+html{
+   font-size: 16px;
+}
+
+body{
+   overflow-x: hidden;
+}
+
+h2{
+   width: 100%;
+   height: 50px;
+   font-family: arial;
+   font-size: 3rem;
+   font-weight: bold;
+   margin-bottom: 50px;
+}
+
+p{
+   width: 90%;
+   min-height: 50px;
+   font-family: verdana;
+   font-size: 1.4rem;
+   line-height: 1.5;
+   margin-bottom: 50px;
+   padding-left: 30px;
+}
+
+.background-img-default{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-auto-height{
+   min-height: 100px;
+   height: auto;
+   overflow: hidden;
+}
+
+.content-default{
+   width: 90vw;
+   margin: auto;
+}
+
+/* */
+
+header{
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    background-color: blueviolet;
+    background-image: url(../image/Breaking-Bad.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+header nav{
+   width: 100%;
+   height: auto;
+   background-color: rgba(0,0,0,50%);
+   padding: 10px 0;
+}
+
+header nav ul{
+   width: 100%;
+   height: auto;
+   margin: 0;
+   list-style: none;
+   display: flex;
+   justify-content: flex-end;
+   gap: 20px;
+   padding: 10px 20px;
+}
+
+header nav ul li{
+   width: auto;
+   height: auto;
+   margin: 0;
+
+   font-family: arial;
+   font-size: 1.5rem;
+   text-align: center;
+   color: #ffffff; 
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   letter-spacing: 2px;
+}
+
+header nav ul li a{
+   color: #ffffff;
+   text-decoration: none;
+}
+
+header nav ul li:hover{
+    background-color: #FFEA04;
+    cursor: pointer;
+    color: #000000;
+    font-weight: bold;
+}
+
+header nav ul li a:hover{
+   color: #000000;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+/* =========================================
+   MAIN
+   ========================================= */
+main {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Seções de Conteúdo */
+#sinopse{
+   width: 100%;
+   min-height: 650px;
+   background-color: #ffffff;
+}
+
+#banner1{
+   width: 100%;
+   height: 650px;
+   background-image: url(../image/BreakingBadCapa.jpg);
+}
+
+#sucesso-audiencia{
+   width: 100%;
+   height: auto;
+   min-height: 650px;
+   background-color: #FFEA04;
+   color: #000000;
+   padding: 60px 0;
+}
+
+#sucesso-audiencia h2{
+   color: #000000;
+   text-align: left;
+   margin-bottom: 40px;
+   margin-left: 20px;
+}
+
+#sucesso-audiencia .audience-grid{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 40px;
+   justify-content: flex-start;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+#sucesso-audiencia .audience-grid p{
+   width: 45%;
+   float: none;
+   margin: 0;
+   text-align: left;
+   line-height: 1.8;
+   margin-left: 20px;
+}
+
+#saiba-mais{
+   width: 100%;
+   height: 750px;
+   background-image: url(../image/cartoon-breaking-bad-walter-9tng3z9qby0hppi6.jpg);
+   background-attachment: scroll;
+   background-position: center top;
+}
+
+#saiba-mais h2{
+   color: #ffffff;
+}
+
+#saiba-mais .content-default{
+   width: 40%;
+   margin: 0px;  
+   margin-right: auto;
+   padding-left: 5%;
+}
+
+#saiba-mais .content-default p{
+   color: #ffffff;
+}
+
+#episodios{
+   width: 100%;
+   min-height: 1100px;
+   height: auto;
+   background-color: #ffffff
+}
+
+#container-episodios{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 60px;
+   padding: 40px 0;
+}
+
+.episodio{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   gap: 40px;
+   margin-bottom: 40px;
+}
+
+.texto-primeiro{
+   flex-direction: row;
+}
+
+.episodio-imagem{
+   flex: 1;
+   min-width: 250px;
+}
+
+.episodio-imagem img{
+   width: 100%;
+   height: auto;
+   border-radius: 12px;
+   box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+   display: block;
+}
+
+.episodio-texto{
+   flex: 1;
+   min-width: 250px;
+}
+
+.episodio-texto p{
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+
+#banner2{
+   width: 100%;
+   height: 650px;
+   background-image: url(../image/1_KFceD3T6cMiJvU_JQYGBSQ.jpg);
+}
+
+#curiosidade{
+   width: 100%;
+   min-height: 500px;
+   height: auto;
+   background-color: #ffffff;
+   padding: 60px 0;
+}
+
+#curiosidade h2{
+   text-align: left;
+   margin-left: 20px;
+}
+
+#curiosidade p{
+   width: 90%;
+   min-height: 50px;
+   font-family: verdana;
+   font-size: 1.4rem;
+   line-height: 1.5;
+   margin-bottom: 50px;
+   padding-left: 30px;
+   margin-left: 20px;
+   text-align: left;
+}
+
+footer{
+   width: 100vw;
+   min-height: 100px;
+   height: auto;
+   background-color: black;
+   padding: 30px 0;
+}
+
+
+/* Ícone Hambúrguer */
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.menu-icon span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+#menu-hamburguer {
+  display: none;
+}
+
+/* Responsividade - Tablet e Mobile (até 1024px) */
+@media (max-width: 1024px){
+   header{
+      background-color: #1a1a2e;
+      background-image: url(../image/Breaking-Bad.webp);
+      background-attachment: scroll;
+      background-size: cover;
+      background-position: center;
+   }
+
+   header::before{
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+   }
+
+   header nav{
+      position: relative;
+      z-index: 2;
+   }
+
+   #saiba-mais{
+       background-color: #000000;
+       background-image: none;
+   }
+
+   header nav ul{
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.5);
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 20px;
+      margin: 0;
+      padding: 80px 20px 40px 20px;
+      transition: right 0.4s ease;
+      z-index: 1000;
+      overflow-y: auto;
+   }
+
+   header nav ul li{
+      width: auto;
+      height: auto;
+      font-size: 1.6rem;
+      margin: 0;
+   }
+
+   header nav ul li a{
+      color: #FFEA04;
+      text-decoration: none;
+      padding: 15px 20px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      display: block;
+   }
+
+   header nav ul li a:hover{
+      background-color: #FFEA04;
+      color: #000000;
+   }
+
+   header nav ul li:hover{
+      background-color: transparent;
+      color: #FFEA04;
+   }
+
+   .menu-icon{
+      display: flex;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+   }
+
+   #menu-hamburguer:checked ~ nav ul{
+      right: 0;
+   }
+
+   #menu-hamburguer:checked ~ .menu-icon span:nth-child(1){
+      transform: rotate(45deg) translate(5px, 5px);
+   }
+
+   #menu-hamburguer:checked ~ .menu-icon span:nth-child(2){
+      opacity: 0;
+   }
+
+   #menu-hamburguer:checked ~ .menu-icon span:nth-child(3){
+      transform: rotate(-45deg) translate(5px, -5px);
+   }
+
+   #sinopse{
+      min-height: auto;
+      padding: 20px 0;
+   }
+
+   #sucesso-audiencia{
+      height: auto;
+      min-height: 600px;
+      padding: 20px 0;
+   }
+
+   #sucesso-audiencia .audience-grid{
+      flex-direction: column;
+      align-items: center;
+   }
+
+   #sucesso-audiencia .audience-grid p{
+      width: 90%;
+      float: none;
+      margin: 0 auto 20px auto;
+      text-align: center;
+   }
+
+   #saiba-mais{
+      min-height: auto;
+      padding: 20px 0;
+      background-position: center;
+   }
+
+   #saiba-mais .content-default{
+      width: auto !important;
+      margin: 0 auto;
+      padding-left: 0;
+      text-align: left;
+   }
+
+   #saiba-mais h2{
+      text-align: left;
+   }
+
+   #banner1, #banner2{
+      height: 300px;
+      background-attachment: scroll;
+   }
+
+   #episodios{
+      min-height: auto;
+      padding: 20px 0;
+   }
+
+   #container-episodios{
+      gap: 30px;
+      padding: 20px 0;
+   }
+
+   .episodio{
+      flex-direction: column;
+      gap: 20px;
+      align-items: stretch;
+   }
+
+   .episodio.invertido{
+      flex-direction: column;
+   }
+
+   .episodio-imagem img{
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+   }
+
+   .episodio-texto p{
+      text-align: center;
+   }
+
+   #curiosidade{
+      height: auto;
+      min-height: 400px;
+      padding: 20px 0;
+   }
+
+   footer{
+      height: auto;
+      padding: 20px 0;
+   }
+
+   .background-img-default,
+   #banner1,
+   #banner2,
+   #saiba-mais{
+      background-attachment: scroll !important;
+   }
+
+   .content-default{
+      width: auto !important;
+   }
+}
